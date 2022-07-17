@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'mono';
+    src: url('https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5e2d028f60dc1a9df8eca10d_soehne-mono-web-buch.woff2');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'mono';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+.nav-container {
+    color: #222222;
+    display: flex;
+    flex-direction: row;
+    margin: 0 32px;
+}
+
+.logo {
+    border: 0;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 16px;
+    width: 50%;
+}
+
+.features, .learn  {
+    padding: 20px 40px 20px 20px;
+}
+
+.features img {
+    vertical-align: middle;
+}
+
+.learn img {
+    vertical-align: middle;
+}
+
+.pricing, .blog {
+    padding: 20px 16px;
+}
+
+.nav-actions {
+    width: 50%;
+    color: #001323;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #001323;    
+}
+
+.nav-actions a {
+    text-decoration: none;
+}
+
+.nav-button {
+    padding: 0.5em 1em;
+    border-radius: 0;
+    border: 2px solid #5840e0;
+    color: #5840e0;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.nav-login {
+    padding: 1em;
+}
+
+.nav-button:hover {
+    background-color: #5840e0;
+    color: #fff;
+}
+
+.divider {
+    border-bottom: 1px solid #80808059;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.body-title{
+    color: #001323;
+    font-size: 6.1rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 83.5%;
+    margin: 10px 0;
+    word-spacing: -15px;
+}
+
+.body-button {
+    margin-top: 1.5rem;
+    border: 2px solid #5541ea;
+    background-color: #fff;
+    font-family: 'Soehne Mono',sans-serif;
+    color: #5541ea;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.body-subtext {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1px #000;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.body-button {
+    width: 40%;
+    justify-content: flex-start;
+    padding: 9px 15px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    border: 2px solid #5541ea;
+    background-color: #fff;
+    color: #5541ea;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.body-img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-img img{
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 10px;
+    padding-top: 35px;
+}
+

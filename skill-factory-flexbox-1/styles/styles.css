@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.container-parent {
+    max-width: 100vw;
+    min-width: 100vh;
+}
+
+.container-child1 {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.color-F0223B { 
+    background-color: #F0223B;
+    border: 1px solid black;
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+}
+
+.color-FA23A9 {
+    background-color: #FA23A9;
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.container-child2 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.color-8D0E96 {
+    background-color: #8D0E96;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.color-14E3B5 {
+    background-color: #14E3B5;
+    border: 1px solid black;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-15967A {
+    background-color: #15967A;
+    border: 1px solid black;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-child3 {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.color-D72BE3 {
+    background-color: #D72BE3;
+    border: 1px solid black;
+    width: 33.33333%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.color-F34AFF {
+    background-color: #F34AFF;
+    border: 1px solid black;
+    width: 33.33333%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.color-7BE32B {
+    background-color: #7BE32B;
+    border: 1px solid black;
+    width: 33.33333%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+}
